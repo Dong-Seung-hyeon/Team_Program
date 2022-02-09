@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:textSize="30dp"
+        android:text="  CPU 검색" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="search"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/scroll"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/chs1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/cpuitem"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[AMD] 라이젠 3 마티스 3300X\n(4코어/8스레드/3.8GHz/쿨러포함/\n대리점정품/멀티팩)\n\n 판매가 131,000원"/>
+
+            <Button
+                android:id="@+id/chs2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/cpuitem"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[AMD] 라이젠 5 마티스 3500X\n(6코어/6스레드/3.6GHz/쿨러포함/\n대리점정품/멀티팩)\n\n 판매가 137,000원"/>
+
+            <Button
+                android:id="@+id/chs3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/cpuitem"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[AMD] 라이젠3 프로 4350G [르누아르]\n(4코어/8스레드/3.8GHz/쿨러포함/\n대리점정품/멀티팩)\n\n 판매가 199,000원"/>
+
+            <Button
+                android:id="@+id/chs4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/cpuitem"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[AMD] 라이젠 5 마티스 3600\n(6코어/12스레드/3.6GHz/쿨러포함/\n대리점정품/멀티팩)\n\n 판매가 189,000원"/>
+
+            <Button
+                android:id="@+id/chs5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/cpuitem"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[AMD] 라이젠5 버미어 5600X\n(6코어/12스레드/3.7GHz/쿨러포함/\n대리점정품/멀티팩)\n\n 판매가 334,000원"/>
+
+            <Button
+                android:id="@+id/chs6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/cpuitem"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[AMD] 라이젠 5 마티스 3500X\n(6코어/6스레드/3.6GHz/쿨러포함/\n대리점정품/멀티팩)\n\n 판매가 162,600원"/>
+
+            <Button
+                android:id="@+id/chs7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/cpuitem1"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[INTEL] 코어10세대 i3-10100 벌크 쿨러포함\n(코멧레이크/3.60GHz/6MB/병행수입)\n\n 판매가 159,000원"/>
+
+            <Button
+                android:id="@+id/chs8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/cpuitem1"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[INTEL] 코어10세대 i5-10400 벌크 쿨러포함\n(코멧레이크/2.90GHz/12MB/병행수입)\n\n 판매가 208,000원"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

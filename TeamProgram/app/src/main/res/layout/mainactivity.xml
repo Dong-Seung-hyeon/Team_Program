@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:textSize="30dp"
+        android:text="  메인보드 검색" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="search"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/scroll"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/chs1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/mainbord"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[ASRock] H470M-HDV\n(인텔H470/M-ATX)\n\n 판매가 77,600원"/>
+
+            <Button
+                android:id="@+id/chs2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/mainbord"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[ASRock] A320M-HDVP 에즈원 벌크\n(AMD A320/M-ATX)\n\n 판매가 67,000원"/>
+
+            <Button
+                android:id="@+id/chs3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/mainbord"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[ASUS] PRIME B460M-A 코잇\n(인텔H460/M-ATX)\n\n 판매가 108,000원"/>
+
+            <Button
+                android:id="@+id/chs4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/mainbord"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[ASRock] H510M-HDV 에즈원 벌크\n(인텔H510/M-ATX)\n\n 판매가 84,830원"/>
+
+            <Button
+                android:id="@+id/chs5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/mainbord"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[GIGABYTE] H410M DS2V V2\n듀러블에디션 제이씨현 벌크(M-ATX)\n\n 판매가 79,000원"/>
+
+            <Button
+                android:id="@+id/chs6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/mainbord"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[ASRock] H470M-HVS 디앤디컴 벌크\n(인텔H470/M-ATX)\n\n 판매가 73,840원"/>
+
+            <Button
+                android:id="@+id/chs7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/mainbord"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[ASRock] H410M-HDVP 디앤디컴 벌크\n(인텔H410/M-ATX)\n\n 판매가 79,130원"/>
+
+            <Button
+                android:id="@+id/chs8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/mainbord"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[ASRock] A320M-HDV R4.0 에즈원\n(AMD A320/M-ATX)\n\n 판매가 64,900원"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

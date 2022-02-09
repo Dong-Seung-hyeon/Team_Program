@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:textSize="30dp"
+        android:text="  그래픽카드 검색" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="search"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/scroll"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/chs1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/gp1"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[ASUS] GeForce GT 710\nSL D5 1GB\n\n 판매가 46,830원"/>
+
+            <Button
+                android:id="@+id/chs2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/gp2"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[Colorfull] GeForce GT 710\nREVENGE D3 1GB\n\n 판매가 41,250원"/>
+
+            <Button
+                android:id="@+id/chs3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/gp3"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[MSI] GeForce GTX 1660\nSUPER 벤투스 S OC D6 6GB\n\n 판매가 619,000원"/>
+
+            <Button
+                android:id="@+id/chs4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/gp4"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[AFOX] GeForce G210 \nD3 512MB LP 디앤디컴\n\n 판매가 27,000원"/>
+
+            <Button
+                android:id="@+id/chs5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/gp5"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[MSI] GeForce GTX1050 Ti \nOC D5 4GB 스톰\n\n 판매가 298,000원"/>
+
+            <Button
+                android:id="@+id/chs6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/gp6"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[MSI] GeForce RTX 3070 게이밍 X 트리오 \nD6 8GB 트라이프로져2\n\n 판매가 1,199,000원"/>
+
+            <Button
+                android:id="@+id/chs7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/gp7"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[MSI] GeForce RTX 3060 게이밍 X \nD6 12GB 트윈프로져8\n\n 판매가 799,000원"/>
+
+            <Button
+                android:id="@+id/chs8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/gp8"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[GaLAXY] GeForce GT1030\nD5 2GB LP 디앤디컴\n\n 판매가 132,000원"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

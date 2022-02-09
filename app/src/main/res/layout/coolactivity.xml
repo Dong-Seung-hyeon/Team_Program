@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:textSize="30dp"
+        android:text="  쿨러 검색" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="search"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/scroll"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/chs1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/cool1"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[실버스톤]\nSST-PF360-ARGB STCOM [CPU쿨러]\n\n 판매가 157,000원"/>
+
+            <Button
+                android:id="@+id/chs2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/cool2"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[INTEL] 인텔 1155/1156 정품 쿨러\n[CPU쿨러/LGA1156,1155/4핀]\n\n 판매가 2,850원"/>
+
+            <Button
+                android:id="@+id/chs3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/cool3"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[DEEPCOOL]\n(GAMMAXX 400 XT BLACK)\n\n 판매가 24,500원"/>
+
+            <Button
+                android:id="@+id/chs4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/cool4"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[THERMOLAB]\nTRINITY WHITH SED 6.0\n\n 판매가 41,000원"/>
+
+            <Button
+                android:id="@+id/chs5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/cool5"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[3RSYS]\nSocool RC100 RGB [CPU쿨러]\n\n 판매가 14,320원"/>
+
+            <Button
+                android:id="@+id/chs6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/cool6"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[3RSYS]\nSocool RC410 ARGB [CPU쿨러]\n\n 판매가 33,580원"/>
+
+            <Button
+                android:id="@+id/chs7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/cool7"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[잘만] \n CNPS9X OPTIMA WHITE LED (\n\n 판매가 27,500원"/>
+
+            <Button
+                android:id="@+id/chs8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/cool8"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="[PCCOOLER]\nPALADIN 400 WHITE LEDn\n\n 판매가 27,900원"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

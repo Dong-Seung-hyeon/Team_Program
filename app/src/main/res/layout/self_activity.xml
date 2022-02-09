@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:textSize="30dp"
+        android:text="셀프 견적 구성"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35dp"
+            android:text="총 판매가                      0원"/>
+
+    </LinearLayout>
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/scroll"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/chs1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/cpu"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="CPU\n\n상품을 선택하세요."/>
+
+            <Button
+                android:id="@+id/chs2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/main"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="메인보드\n\n상품을 선택하세요."/>
+
+            <Button
+                android:id="@+id/chs3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/memory"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="메모리\n\n상품을 선택하세요."/>
+
+            <Button
+                android:id="@+id/chs4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/graphic"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="그래픽카드\n\n상품을 선택하세요."/>
+
+            <Button
+                android:id="@+id/chs5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/ssd"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="SSD / HDD\n\n상품을 선택하세요."/>
+
+            <Button
+                android:id="@+id/chs6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/power"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Power\n\n상품을 선택하세요."/>
+
+            <Button
+                android:id="@+id/chs7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/cs"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="케이스\n\n상품을 선택하세요."/>
+
+            <Button
+                android:id="@+id/chs8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="18dip"
+                android:drawableLeft="@drawable/cool"
+                android:drawablePadding="18dip"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="쿨러\n\n상품을 선택하세요."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt1"
+            android:backgroundTint="@color/dark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textSize="11dp"
+            android:text="견적저장" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:backgroundTint="@color/dark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textSize="11dp"
+            android:text="초기화" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:backgroundTint="@color/dark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textSize="11dp"
+            android:text="공유하기" />
+
+        <Button
+            android:id="@+id/bt4"
+            android:backgroundTint="@color/dark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textSize="11dp"
+            android:text="구매하기" />
+
+    </LinearLayout>
+</LinearLayout>
